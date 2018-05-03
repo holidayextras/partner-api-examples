@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<API_Reply Product="CarPark" RequestCode="3" Result="OK">
+    <CarPark>
+        <Name>Parkservice Sky München</Name>
+        <Code>MU01</Code>
+        <BookingURL>/carpark/FRMU01</BookingURL>
+        <MoreInfoURL>/product/MU01</MoreInfoURL>
+        <RequestFlags/>
+        <TotalPrice>35.00</TotalPrice>
+        <GatePrice>0.00</GatePrice>
+        <CancellationRule>0</CancellationRule>
+        <CarDetFlags>NNNNNNNNYYNYNNNNNN</CarDetFlags>
+        <CarDetails>Y</CarDetails>
+        <DiscDates/>
+        <QRCodeProduct>N</QRCodeProduct>
+        <Filter>
+            <car_parked_for_you>1</car_parked_for_you>
+            <meet_and_greet>0</meet_and_greet>
+            <on_airport/>
+            <recommended/>
+            <special_offer_text>1</special_offer_text>
+            <valet_included>0</valet_included>
+        </Filter>
+    </CarPark>
+    <Pricing>
+        <CCardSurchargePercent>0.00</CCardSurchargePercent>
+        <TotalPrice>35.00</TotalPrice>
+        <CCardSurchargeAmount>0.00</CCardSurchargeAmount>
+    </Pricing>
+    <SepaID>DE11ZZZ00000633860</SepaID>
+    <API_Header>
+        <Request>
+            <ABTANumber>YourABTANumber</ABTANumber>
+            <Password>YourPassword</Password>
+            <Initials>YourInitials</Initials>
+            <key>YourKey</key>
+            <token>YourToken</token>
+            <ArrivalDate>2018-12-01</ArrivalDate>
+            <ArrivalTime>1200</ArrivalTime>
+            <DepartDate>2018-12-08</DepartDate>
+            <DepartTime>1200</DepartTime>
+            <NumberOfPax>1</NumberOfPax>
+            <System>ABG</System>
+            <lang>de</lang>
+        </Request>
+    </API_Header>
+</API_Reply>

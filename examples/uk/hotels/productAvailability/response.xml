@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<API_Reply Product="HotelWithParking" RequestCode="21" Result="OK">
+    <Hotel>
+        <Name>Hilton T4</Name>
+        <Code>LHRHIL</Code>
+        <BookingURL>/v1/hotel/HPLHRHIL</BookingURL>
+        <MoreInfoURL>/v1/product/LHRHIL</MoreInfoURL>
+        <RequestFlags/>
+        <Price>125.00</Price>
+        <PriceWithSurcharge>125.00</PriceWithSurcharge>
+        <Adults>2</Adults>
+        <Children>0</Children>
+        <RoomCode>DBL</RoomCode>
+        <BoardBasis>RO</BoardBasis>
+        <ParkingDays>0</ParkingDays>
+        <NonDiscPrice>125.00</NonDiscPrice>
+        <Filter>
+            <hotel_arrival_parking_ppts>1</hotel_arrival_parking_ppts>
+            <hotel_return_parking_ppts>1</hotel_return_parking_ppts>
+            <day_use_only>0</day_use_only>
+        </Filter>
+    </Hotel>
+    <Pricing>
+        <CCardSurchargePercent>0.00</CCardSurchargePercent>
+        <TotalPrice>125.00</TotalPrice>
+        <CCardSurchargeAmount>0.00</CCardSurchargeAmount>
+        <WaiverValue>2.49</WaiverValue>
+    </Pricing>
+    <SepaID/>
+    <API_Header>
+        <Request>
+            <ABTANumber>YourABTANumber</ABTANumber>
+            <Password>YourPassword</Password>
+            <key>YourKey</key>
+            <token>YourToken</token>
+            <ArrivalDate>2018-12-01</ArrivalDate>
+            <Nights>1</Nights>
+            <RoomType>D20</RoomType>
+            <ParkingDays>0</ParkingDays>
+            <v>1</v>
+        </Request>
+    </API_Header>
+</API_Reply>
