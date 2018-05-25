@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<API_Reply Product="Lounge" RequestCode="1" Result="OK" cached="1" expires="2018-01-11 12:30:25">
+    <Lounge>
+        <Name>Hamburg Airport Lounge</Name>
+        <Code>HAMLHL</Code>
+        <BookingURL>/v1/lounge/FRHAMLHL</BookingURL>
+        <MoreInfoURL>/v1/product/HAMLHL</MoreInfoURL>
+        <NonDiscPrice>74.00</NonDiscPrice>
+        <Price>74.00</Price>
+        <terminal>Z</terminal>
+        <option_count>1</option_count>
+    </Lounge>
+    <Pricing>
+        <CCardSurchargePercent>0.00</CCardSurchargePercent>
+        <CCardSurchargeMin>0.00</CCardSurchargeMin>
+        <CCardSurchargeMax>0.00</CCardSurchargeMax>
+        <Rates>
+            <GBP>1</GBP>
+            <EUR>1.1045</EUR>
+            <USD>1.319</USD>
+        </Rates>
+    </Pricing>
+    <SepaID/>
+    <API_Header>
+        <Request>
+            <ABTANumber>YourABTANumber</ABTANumber>
+            <Password>YourPassword</Password>
+            <Initials>YourInitials</Initials>
+            <key>YourKey</key>
+            <token>YourToken</token>
+            <ArrivalDate>2018-12-01</ArrivalDate>
+            <ArrivalTime>1200</ArrivalTime>
+            <Adults>2</Adults>
+            <Children>0</Children>
+            <System>ABG</System>
+            <lang>de</lang>
+            <v>1</v>
+        </Request>
+    </API_Header>
+</API_Reply>

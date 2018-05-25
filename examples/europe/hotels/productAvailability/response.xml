@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<API_Reply Product="HotelWithParking" RequestCode="21" Result="OK">
+    <Hotel>
+        <Name>Schweigers Landgasthof</Name>
+        <Code>MUCLAN</Code>
+        <BookingURL>/v1/hotel/FRMUCLAN</BookingURL>
+        <MoreInfoURL>/v1/product/MUCLAN</MoreInfoURL>
+        <RequestFlags/>
+        <Price>108.00</Price>
+        <PriceWithSurcharge>NaN</PriceWithSurcharge>
+        <Adults>2</Adults>
+        <Children>0</Children>
+        <RoomCode>DZ</RoomCode>
+        <BoardBasis>F</BoardBasis>
+        <ParkingDays>15</ParkingDays>
+        <NonDiscPrice>120.00</NonDiscPrice>
+    </Hotel>
+    <Pricing>
+        <CCardSurchargePercent>0.00</CCardSurchargePercent>
+        <TotalPrice>108.00</TotalPrice>
+        <CCardSurchargeAmount>0.00</CCardSurchargeAmount>
+    </Pricing>
+    <SepaID/>
+    <API_Header>
+        <Request>
+            <ABTANumber>TESTG</ABTANumber>
+            <Password>Redacted</Password>
+            <key>foo</key>
+            <token>1234567890</token>
+            <ArrivalDate>2018-12-01</ArrivalDate>
+            <Nights>1</Nights>
+            <RoomType>D20</RoomType>
+            <ParkingDays>8</ParkingDays>
+            <System>ABG</System>
+            <v>1</v>
+            <lang>de</lang>
+        </Request>
+    </API_Header>
+</API_Reply>
